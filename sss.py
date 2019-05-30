@@ -2,4 +2,5 @@ print(123)
 pass
 def hh():
     pass
-rrr
+def rrr():
+    print("ok")
