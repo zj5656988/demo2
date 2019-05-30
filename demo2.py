@@ -35,5 +35,8 @@ class Function2():
 
                     pass
                 pass
-
+def  fun1():
+    pass
+def dd():
+    pass
 
