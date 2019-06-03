@@ -38,5 +38,5 @@ class Function2():
 def  fun1():
     pass
 def dd():
-    pass
+    oass
 
