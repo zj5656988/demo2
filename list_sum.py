@@ -1,5 +1,5 @@
 """\
-求一个列表里的两个数，相加的最大值，返回那两个数的下标
+1、求一个列表里的两个数，相加的最大值，返回那两个数的下标
 """
 
 """
@@ -43,6 +43,68 @@ def fun(list):
     return i,j
 
 
+"""
+编写一个函数来查找字符串数组中的最长公共前缀。
+如果不存在公共前缀，返回空字符串 ""。
+["flower","flow","flight"]
+"""
+# class FindAllstr():
+#     def find(self,origin_list):
+#         #1、找到长度最短的字符
+#         min_str=origin_list[0]
+#         min_str_len=len(origin_list)
+#         for temp in origin_list:
+#             if len(temp) <= min_str_len:
+#                 min_str=temp
+#                 min_str_len=len(min_str)
+#         #2、判断是否是公共前缀
+#         i=0
+#         list1_result=[]
+#         for i in range(min_str_len):
+#             for temp in origin_list:
+#                 if temp[i] != min_str[i]:
+#                         break
+#                 else:
+#                     hh=temp[i]
+#             list1_result.append(hh)
+#             i+=1
+#         return list1_result
+def  longestCommonPrefix(list):
+
+    """
+
+    :type strs:  List[str]
+
+    :rtype: str
+
+     """
+
+    list.sort(key  =len)# 根据列表中的字符串长度排序
+
+    if not list:#如果列表为空，返回空
+
+        return'1'
+
+    result = ''#记录公共前缀，根据循环遍历实时更新result
+
+    for i in  range(len(list[0])):#以列表中长度最小的单词strs[0]的长度为基准进行遍历
+
+        for j in list[1:]:#遍历列表中的除基准单词外的每个字符串
+
+            if j[i] !=  list[0][i]:#如果列表中的字符串的对应下标的值与strs[0][i]不相同
+
+                return result
+
+        result +=  list[0][i]#如果所有字符串下标都相同，更新最长公共前缀
+
+    return result
+
+
+
+
+
+
 if __name__ == '__main__':
-    list = [1, 23, 33, 1, 2, 12]
-    fun(list)
+    list=[]
+    f=longestCommonPrefix(list)
+    print(f)

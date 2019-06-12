@@ -1,3 +1,4 @@
+# noinspection PyInterpreter
 """
 测试开发面试题解（1）-整数反转
 
