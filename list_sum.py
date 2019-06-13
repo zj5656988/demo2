@@ -99,12 +99,28 @@ def find_1(origin_list):
                     result+=ls[0]
                 else:
                     return result    #有一个单词不同
+"""
+题目描述
+合并两个有序数组合并，输出到一个新的数组中，其结果仍然是一个有序数组。
+例如：输入：
+nums1 = [1,2,3]
+nums2 = [1,2,4]
+输出：[1,2，3,4]
+"""
+"""
+思路一：
+列表1的数据往列表2插
+先判断列表1中的字母列表2在不在，在的话不变，不在的话，插到最后。
+然后对列表排序输出即可。list用sorted函数输出。
+"""
+def fun2to1(list1,list2):
+    for temp in list1:
+        if temp in list2:
+            pass
+        else:
+            list_2.append(temp)
 
-
-
-
-
-
+    return sorted(list_2)
 
 
 
@@ -113,5 +129,7 @@ def find_1(origin_list):
 if __name__ == '__main__':
     list_one=['fun1','funsss','fuwwww']
     list_null=[]
-    f=find_1(list_one)
+    list_1=[1,2,4,9]
+    list_2= [1,3,4,7,9]
+    f=fun2to1(list_1,list_2)
     print(f)
