@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e65c6c4c-ebde-4308-be17-59bf5f37c49d" name="Default Changelist" comment="11111111">
-      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
@@ -29,20 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="131">
+              <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="175">
+              <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -74,8 +70,8 @@
         <option value="$PROJECT_DIR$/demo1.py" />
         <option value="$PROJECT_DIR$/threading_learn.py" />
         <option value="$PROJECT_DIR$/venv/list_reserve.py" />
-        <option value="$PROJECT_DIR$/list_sum.py" />
         <option value="$PROJECT_DIR$/temp.py" />
+        <option value="$PROJECT_DIR$/list_sum.py" />
       </list>
     </option>
   </component>
@@ -129,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.temp">
+  <component name="RunManager" selected="Python.list_sum">
     <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,8 +236,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.temp" />
         <item itemvalue="Python.list_sum" />
+        <item itemvalue="Python.temp" />
         <item itemvalue="Python.threading_learn" />
         <item itemvalue="Python.demo1" />
       </list>
@@ -350,13 +346,13 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.16441621" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.16441621" />
+      <window_info id="Structure" order="1" sideWeight="0.5025381" side_tool="true" visible="true" weight="0.16441621" />
       <window_info id="Favorites" order="2" sideWeight="0.5008881" side_tool="true" weight="0.14308812" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3090586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5026643" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30017763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6589698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4987874" weight="0.08687943" />
@@ -365,7 +361,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.35106382" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.6200485" weight="0.68971634" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49636218" weight="0.39786857" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49636218" weight="0.1740675" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3280142" />
       <window_info anchor="bottom" id="SVN Repositories" order="14" sideWeight="0.56831044" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="找到" order="15" weight="0.5141844" />
@@ -429,27 +425,6 @@
     <MESSAGE value="11111111" />
     <option name="LAST_COMMIT_MESSAGE" value="11111111" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/list_sum.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/list_sum.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/list_sum.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo$zheng.coverage" NAME="zheng Coverage Results" MODIFIED="1559732006180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1559290790651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -504,17 +479,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list_sum.py">
+    <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="175">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-991083293/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="-547">
+          <caret line="3621" column="6" selection-start-line="3621" selection-start-column="6" selection-end-line="3621" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
         </state>
       </provider>
     </entry>

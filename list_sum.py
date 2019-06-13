@@ -48,28 +48,11 @@ def fun(list):
 如果不存在公共前缀，返回空字符串 ""。
 ["flower","flow","flight"]
 """
-# class FindAllstr():
-#     def find(self,origin_list):
-#         #1、找到长度最短的字符
-#         min_str=origin_list[0]
-#         min_str_len=len(origin_list)
-#         for temp in origin_list:
-#             if len(temp) <= min_str_len:
-#                 min_str=temp
-#                 min_str_len=len(min_str)
-#         #2、判断是否是公共前缀
-#         i=0
-#         list1_result=[]
-#         for i in range(min_str_len):
-#             for temp in origin_list:
-#                 if temp[i] != min_str[i]:
-#                         break
-#                 else:
-#                     hh=temp[i]
-#             list1_result.append(hh)
-#             i+=1
-#         return list1_result
-def  longestCommonPrefix(list):
+"""
+1、思路找到最短的数
+2、以最短的数的前几位字符从头比较。循环，如果一直就添加，不一致直接return
+"""
+def  find(list1):
 
     """
 
@@ -79,25 +62,48 @@ def  longestCommonPrefix(list):
 
      """
 
-    list.sort(key  =len)# 根据列表中的字符串长度排序
+    list1.sort(key  =len)# 根据列表中的字符串长度排序
 
-    if not list:#如果列表为空，返回空
+    if not list1:#如果列表为空，返回空
 
         return'1'
 
     result = ''#记录公共前缀，根据循环遍历实时更新result
 
-    for i in  range(len(list[0])):#以列表中长度最小的单词strs[0]的长度为基准进行遍历
+    for i in  range(len(list1[0])):#以列表中长度最小的单词strs[0]的长度为基准进行遍历
 
-        for j in list[1:]:#遍历列表中的除基准单词外的每个字符串
+        for j in list1[1:]:#遍历列表中的除基准单词外的每个字符串
 
-            if j[i] !=  list[0][i]:#如果列表中的字符串的对应下标的值与strs[0][i]不相同
+            if j[i] !=  list1[0][i]:#如果列表中的字符串的对应下标的值与strs[0][i]不相同
 
                 return result
 
-        result +=  list[0][i]#如果所有字符串下标都相同，更新最长公共前缀
+        result +=  list1[0][i]#如果所有字符串下标都相同，更新最长公共前缀
 
     return result
+
+"""
+思路二:
+1、先将strs使用*表达式，取出里面的每个元素
+2、将取出来的元素按照索引进行压包，压包后是一个元组
+3、利用集合去重后判断集合长度来判断列表中单词的同一索引位置的字母是否相同，
+如果相同则更新公共前缀
+"""
+def find_1(origin_list):
+    result=""
+    if len(origin_list)==0:
+        return "列表为空"
+    else:
+        for ls in zip(*origin_list):  #zip+解包，输出的ls是一个元组
+                if len(set(ls))==1:   #即所有单词相同,如果所有单词不相同，去重后其长度不可能为1
+                    result+=ls[0]
+                else:
+                    return result    #有一个单词不同
+
+
+
+
+
 
 
 
@@ -105,6 +111,7 @@ def  longestCommonPrefix(list):
 
 
 if __name__ == '__main__':
-    list=[]
-    f=longestCommonPrefix(list)
+    list_one=['fun1','funsss','fuwwww']
+    list_null=[]
+    f=find_1(list_one)
     print(f)
